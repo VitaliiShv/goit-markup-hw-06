@@ -1,0 +1,14 @@
+.modal-close {
+  padding: 6px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid red;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
