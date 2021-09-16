@@ -32,9 +32,9 @@
           <li class="item">
             <a href="mailto:info@devstudio.com" class="link">
               <svg width="16" height="12" class="icon-mail">
-                <use href="./img/sprite.svg#icon-envelope"></use></svg
-              >info@devstudio.com
-            </a>
+                <use href="./img/sprite.svg#icon-envelope"></use></svg>
+                info@devstudio.com
+              </a>
           </li>
           <li class="item">
             <a href="tel:+380961111111" class="link"
@@ -60,6 +60,53 @@
                   <use href="./img/sprite.svg#icon-close"></use>
                 </svg>
               </button>
+              <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+              <form class="modal-form">
+                <label class="form-label">
+                  Имя
+                  <div class="form-field">
+                    <input class="form-input" type="text" name="user-name"/>
+                    <svg class="form-icon">
+                      <use href="./img/sprite.svg#icon-person-black"></use>
+                    </svg>
+                  </div>
+                </label>
+                <label class="form-label">
+                  Телефон
+                  <div class="form-field">
+                    <input class="form-input" type="text" name="user-phone"/>
+                    <svg class="form-icon">
+                      <use href="./img/sprite.svg#icon-phone-black"></use>
+                    </svg>
+                  </div>
+                </label>
+                <label class="form-label">
+                  Почта
+                  <div class="form-field">
+                    <input class="form-input" type="email" name="user-email"/>
+                    <svg class="form-icon">
+                      <use href="./img/sprite.svg#icon-email-black"></use>
+                    </svg>
+                  </div>
+                </label>
+                <label class="form-label">
+                  Комментарий
+                  <div class="">
+                    <textarea class="form-input form-textarea" placeholder="Введите текст" name="user-comment"/></textarea>
+                    
+                    </div>
+                </label>
+                <label class="form-policy">
+                  <svg class="form-icon">
+                      <use href="./img/sprite.svg#icon-check"></use>
+                  </svg>
+                  <input type="checkbox" class="form-checkbox" name="policy"></input>
+                  <span class="form-checkbox-custom"></span>
+                  <span>Соглашаюсь с рассылкой и принимаю</span><a href="/" class="policy-link"><span>Условия договора</span></a> 
+                </label>
+                <button type="submit" class="form-submit button primary">Отправить</button>
+              
+              </form>
             </div>
           </div>
         </section>
@@ -346,7 +393,7 @@
           </ul>
         </div>
 
-        <div class="footer-item">
+        <div class="footer-item footer-join">
           <h4 class="header-join">Присоединяйтесь</h4>
           <ul class="footer-contacts">
             <li>
@@ -374,6 +421,17 @@
               ></a>
             </li>
           </ul>
+        </div>
+        <div class="footer-item footer-big">
+          <h4 class="header-subscribe">Подпишитесь на рассылку</h4>
+          <form class="subscribe-form">
+              <input type="email" class="subscribe-input" placeholder="E-mail" name="user-email">
+            <button type="submit" class="subscribe-button button primary">Подписаться
+              <svg class="subscribe-button-icon">
+                  <use href="./img/sprite.svg#icon-send"></use></svg
+              ></button>
+            </form>
+            
         </div>
       </div>
     </footer>
