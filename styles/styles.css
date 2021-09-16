@@ -281,7 +281,12 @@ ul {
   margin-bottom: 30px;
 }
 
-.modal-form {
+.form-block {
+  margin-bottom: 10px;
+}
+
+.last-block {
+  margin-bottom: 20px;
 }
 
 .form-label {
@@ -292,7 +297,6 @@ ul {
   letter-spacing: 0.01em;
   color: var(--primary-text-color);
   text-align: left;
-  margin-bottom: 10px;
 }
 
 .form-input {
@@ -345,8 +349,8 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
 }
+
 .policy-link {
   display: inline-block;
   color: var(--accent-color);
@@ -385,6 +389,10 @@ ul {
   background-size: cover;
   border-color: transparent;
   background-origin: border-box;
+}
+
+.form-submit {
+  margin-top: 30px;
 }
 
 .section {
